@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #0e0e0e;
+    text-align: center;
+    line-height: 10vh;
+    font-size: 1.2rem;
+}
+
+header, footer{
+    background: #fcfcfc;
+    height: 10vh;
+}
+
+main{
+    height: 70vh;
+    line-height: 70vh;
+    display: grid;
+    color: #f0f0f0;
+    grid-template-columns: 1fr 2fr;
+}
+
+section{
+    height: 10vh;
+    background: #6e6b6b;
+}
